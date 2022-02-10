@@ -1,4 +1,64 @@
-body {background-color:tan;}
-h1{color:green;}
+/*body {}*/
+html{}
+body {background-color:black;
+      font-family:arial;
+      color:white;
+      text-align: center;
+}
 
+h1{  color:grey;   /*captopn*/
+    font-family: verdana;
+}
 
+p {display: block; /* copyright string */
+text-align: left;
+}
+
+.maindiv {
+    background-color:white;
+    color:black;
+    width:300px; /* width is from the Final Project Task */
+    padding:20px; /*padding from the task*/
+    border-radius:25px; /* from the task*/
+    font-weight: bold;
+}
+
+/*label style*/
+label{
+  display: block;
+  padding-left: 20px;
+  float: left;
+  width: 100px;
+  text-align: left;
+}
+
+input{
+  display: block;
+  padding-left: 0px;
+  float: left;
+  width: 120px;
+  text-align: left;
+
+}
+
+select{
+  display: block;
+  float: left;
+  text-align: left;
+
+}
+button {
+  display: block;
+  margin-left: 20px;
+  float: left;
+  cursor:pointer;
+}
+
+span{
+  text-align: left;
+}
+#result
+{display: block;
+padding-left: 20px;
+float: left;
+}
